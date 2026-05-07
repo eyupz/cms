@@ -1,14 +1,10 @@
-\---
++++
 
-title: "CMS Hugo Projesi"
+title = "CMS Hugo Projesi"
 
-draft: false
+draft = false
 
-description: "Modern Hugo Web Sitesi"
-
-featured\_image: "/images/site-kapak.jpg"
-
-\---
++++
 
 
 
@@ -16,27 +12,23 @@ featured\_image: "/images/site-kapak.jpg"
 
 
 
-Hugo, GitHub ve Vercel kullanılarak geliştirilmiş modern ve kapsamlı statik web sitesi projesine hoş geldiniz.
+Hugo, GitHub ve Vercel kullanılarak geliştirilmiş modern statik web sitesi projesi.
 
 
 
-\## Projenin Özellikleri
+\## Özellikler
 
 
 
-\- Modern kullanıcı arayüzü
+\- Modern tasarım
 
-\- Çok sayfalı mimari
+\- Çok sayfalı yapı
 
 \- GitHub entegrasyonu
 
 \- Vercel deployment sistemi
 
-\- Responsive tasarım
-
-\- Markdown tabanlı içerik yönetimi
-
-\- Tema desteği
+\- Responsive yapı
 
 
 
@@ -48,7 +40,7 @@ Hugo, GitHub ve Vercel kullanılarak geliştirilmiş modern ve kapsamlı statik 
 
 
 
-Modern statik web sitesi üreticisi.
+Modern statik site üreticisi.
 
 
 
@@ -56,7 +48,7 @@ Modern statik web sitesi üreticisi.
 
 
 
-Versiyon kontrol ve repository yönetimi.
+Versiyon kontrol sistemi.
 
 
 
@@ -64,5 +56,5 @@ Versiyon kontrol ve repository yönetimi.
 
 
 
-Canlı deployment ve hosting sistemi.
+Canlı deployment platformu.
 
