@@ -1,7 +1,8 @@
+/* GENEL */
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: #f3f4f6;
-    color: #1f2937;
+    color: #111827;
     margin: 0;
     padding: 0;
 }
@@ -9,6 +10,8 @@ body {
 /* HERO */
 .cover {
     background: linear-gradient(135deg,#0f172a,#1e3a8a) !important;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
 }
 
 .f-title {
@@ -17,83 +20,90 @@ body {
     letter-spacing: -2px;
 }
 
-.f-subheadline {
-    font-size: 24px !important;
-    opacity: 0.9;
-}
-
 /* NAVBAR */
 nav {
-    background: rgba(15,23,42,0.92);
+    background: rgba(15,23,42,0.95);
     backdrop-filter: blur(10px);
 }
 
 nav a {
     color: white !important;
-    font-weight: 600;
-    transition: 0.2s ease;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    margin-left: 18px;
 }
 
 nav a:hover {
     color: #60a5fa !important;
 }
 
-/* CONTENT */
+/* ANA CONTENT */
 main {
-    max-width: 1200px;
-    margin: auto;
+    max-width: 1400px !important;
+    margin: auto !important;
+    padding: 40px !important;
 }
 
+/* KART */
 article {
     background: white;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    padding: 40px;
     border-radius: 24px;
-    box-shadow: 0 10px 35px rgba(0,0,0,0.08);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+    padding: 60px !important;
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+    width: 100% !important;
+    max-width: 1100px !important;
 }
 
-/* HEADINGS */
+/* ANANKE GENİŞLİK KIR */
+.measure-wide,
+.measure {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+/* YAZILAR */
 h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
+    font-size: 56px !important;
+    margin-bottom: 30px;
+    color: #111827;
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 36px !important;
     margin-top: 40px;
     color: #1d4ed8;
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 28px !important;
     margin-top: 25px;
 }
 
-/* TEXT */
 p {
-    line-height: 1.8;
-    font-size: 18px;
+    font-size: 21px !important;
+    line-height: 1.9;
 }
 
 li {
-    margin-bottom: 12px;
-    font-size: 18px;
+    font-size: 20px !important;
+    margin-bottom: 14px;
 }
 
-/* CODE BLOCKS */
+/* KOD BLOKLARI */
 pre {
     background: #0f172a;
-    color: #f8fafc;
-    padding: 20px;
-    border-radius: 16px;
+    color: white;
+    padding: 24px;
+    border-radius: 18px;
     overflow-x: auto;
 }
 
 code {
-    background: #e0e7ff;
+    background: #dbeafe;
     color: #1e3a8a;
-    padding: 2px 8px;
+    padding: 3px 8px;
     border-radius: 6px;
 }
 
@@ -103,27 +113,26 @@ footer {
     color: white;
 }
 
-/* BUTTON STYLE */
-a {
-    transition: all 0.2s ease;
-}
-
-a:hover {
-    opacity: 0.85;
-}
-
-/* RESPONSIVE */
+/* MOBİL */
 @media (max-width: 768px) {
+
     .f-title {
         font-size: 42px !important;
     }
 
     article {
-        padding: 20px;
-        margin: 20px;
+        padding: 25px !important;
     }
 
     h1 {
-        font-size: 36px;
+        font-size: 38px !important;
+    }
+
+    h2 {
+        font-size: 28px !important;
+    }
+
+    p, li {
+        font-size: 18px !important;
     }
 }
